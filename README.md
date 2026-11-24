@@ -15,7 +15,3 @@ an extraction agent (parses invoices), a reconciliation agent (fuzzy-matches pay
 ## Backend
 
 Event-driven pipeline (Kafka or SQS), Postgres with an immutable audit ledger, idempotent payment webhooks, and approval gates before any money-related action.
-
-## Why it's strong
-
-It maps to a real, expensive pain point, and the audit trail and human-in-the-loop design show you understand how AI must behave in regulated finance.
